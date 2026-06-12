@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const URL = "http://to-dobackend-tbb2.onrender.com/api/todos";
+const URL = "https://to-dobackend-tbb2.onrender.com/api/todos";
 
 function App() {
   const [todo, setTodo] = useState([]);
